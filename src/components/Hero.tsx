@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LogoNew from '../Logo-New.jpg';
 
 const Hero: React.FC = () => {
   return (
@@ -7,9 +8,14 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="flex flex-col justify-center">
+<<<<<<< HEAD
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Green Energy That Gets You<br />
               100% Renewable. 100% You.
+=======
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Green Energy That Gets You
+>>>>>>> 3d76039 (Remove 'Test' heading above logo in hero section)
             </h1>
             <p className="text-lg md:text-xl mb-4 text-gray-200 bg-black bg-opacity-40 p-2 rounded">
               Power your life with clean energy that’s always on — no compromises, no greenwashing. Just real, reliable, renewable power for your home, your hustle, and your planet.
@@ -42,7 +48,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-white bg-opacity-20 rounded-lg transform -rotate-3"></div>
               <div className="absolute inset-0 bg-white bg-opacity-90 rounded-lg shadow-lg flex items-center justify-center p-8">
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold text-primary mb-4">Test</h3>
+                  <img src={LogoNew} alt="Logo" className="mx-auto mb-4 w-64 h-64 object-contain" />
                   <p className="text-gray-600 mb-6">Estimate how much you could save by choosing our energy offers</p>
                   <Link 
                     to="/compare" 
