@@ -7,16 +7,10 @@ const Hero: React.FC = () => {
     <div className="bg-gradient-to-r from-primary to-secondary text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div className="flex flex-col justify-center">
-<<<<<<< HEAD
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Green Energy That Gets You<br />
-              100% Renewable. 100% You.
-=======
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Green Energy That Gets You
->>>>>>> 3d76039 (Remove 'Test' heading above logo in hero section)
-            </h1>
+<div className="flex flex-col justify-center">
+  <h1 className="text-4xl md:text-5xl font-bold mb-6">
+    Green Energy That Gets You
+  </h1>
             <p className="text-lg md:text-xl mb-4 text-gray-200 bg-black bg-opacity-40 p-2 rounded">
               Power your life with clean energy that’s always on — no compromises, no greenwashing. Just real, reliable, renewable power for your home, your hustle, and your planet.
             </p>
