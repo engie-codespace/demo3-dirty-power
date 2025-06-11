@@ -22,24 +22,18 @@ const Hero: React.FC = () => {
             <p className="text-lg md:text-xl mb-4 text-gray-200 bg-black bg-opacity-40 p-2 rounded">
               Power your life with clean energy that’s always on — no compromises, no greenwashing. Just real, reliable, renewable power for your home, your hustle, and your planet.
             </p>
-            <ul className="mb-4 text-lg text-white list-none pl-0">
-              <li>🌍 100% Renewable, 24/7</li>
-              <li>⚡ Built for Your Lifestyle</li>
-              <li>📱 Smart, Seamless, Sustainable</li>
+            <ul className="mb-4 text-lg list-none pl-0">
+              <li className="text-[#444]">🌍 100% Renewable, 24/7</li>
+              <li className="text-[#444]">⚡ Built for Your Lifestyle</li>
+              <li className="text-[#444]">📱 Smart, Seamless, Sustainable</li>
             </ul>
-            <div className="mb-6 text-lg text-white">Make the switch. Be the change.</div>
+            <div className="mb-6 text-lg text-[#444]">Make the switch. Be the change.</div>
             <div className="flex flex-wrap gap-4">
-              <Link 
-                to="/energy-types" 
-                className="inline-block bg-white text-primary font-medium px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
-              >
-                Discover our energy sources
-              </Link>
               <Link 
                 to="/offers" 
                 className="inline-block bg-accent text-white font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition-colors"
               >
-                View our offers
+                Make the switch
               </Link>
             </div>
           </div>
