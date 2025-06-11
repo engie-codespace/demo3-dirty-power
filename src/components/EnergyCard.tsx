@@ -24,7 +24,7 @@ const EnergyCard: React.FC<EnergyCardProps> = ({ energy }) => {
         {/* In a real project, we would have images, but for now we're using a colored div */}
         <div
           className={`w-full h-full flex items-center justify-center ${
-            energy.type === 'fossil' ? 'bg-amber-700' : 'bg-blue-600'
+            energy.type === 'fossil' ? 'bg-amber-700' : 'bg-green-600'
           }`}
         >
           <h3 className="text-white text-xl font-bold">{energy.name}</h3>
