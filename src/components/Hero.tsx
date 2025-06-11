@@ -7,13 +7,19 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="flex flex-col justify-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Trusted energy provider for residential and business customers
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Green Energy That Gets You<br />
+              100% Renewable. 100% You.
             </h1>
-            <p className="text-lg md:text-xl mb-8 text-gray-200">
-              We offer reliable energy solutions with transparent rates
-              and exceptional customer service for over 25 years.
+            <p className="text-lg md:text-xl mb-4 text-gray-200 bg-black bg-opacity-40 p-2 rounded">
+              Power your life with clean energy that’s always on — no compromises, no greenwashing. Just real, reliable, renewable power for your home, your hustle, and your planet.
             </p>
+            <ul className="mb-4 text-lg text-white list-none pl-0">
+              <li>🌍 100% Renewable, 24/7</li>
+              <li>⚡ Built for Your Lifestyle</li>
+              <li>📱 Smart, Seamless, Sustainable</li>
+            </ul>
+            <div className="mb-6 text-lg text-white">Make the switch. Be the change.</div>
             <div className="flex flex-wrap gap-4">
               <Link 
                 to="/energy-types" 
