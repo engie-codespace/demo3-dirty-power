@@ -16,23 +16,23 @@ interface OfferCardProps {
 }
 
 const OfferCard: React.FC<OfferCardProps> = ({ offer }) => {
-  const audienceLabel = offer.targetAudience === 'business' ? 'Business' : 'Residential';
+  const audienceLabel = '🦄';
   const isBusinessOffer = offer.targetAudience === 'business';
 
   return (
     <div className={`bg-white rounded-lg shadow-md overflow-hidden border-t-4 ${
-      isBusinessOffer ? 'border-t-blue-600' : 'border-t-green-600'
+      isBusinessOffer ? 'border-t-green-600' : 'border-t-green-600'
     }`}>
       <div className="p-6">
         <div className="mb-4">
           <span className={`inline-block px-3 py-1 text-xs font-semibold rounded-full ${
-            isBusinessOffer ? 'bg-blue-100 text-blue-800' : 'bg-green-100 text-green-800'
+            isBusinessOffer ? 'bg-green-100 text-green-800' : 'bg-green-100 text-green-800'
           }`}>
             {audienceLabel}
           </span>
         </div>
         
-        <h3 className="text-xl font-bold mb-2">{offer.name}</h3>
+        <h3 className="text-xl font-bold mb-2">Unicorn Power</h3>
         <p className="text-gray-600 mb-6">{offer.description}</p>
         
         <div className="space-y-3 mb-6">
