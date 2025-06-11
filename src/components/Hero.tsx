@@ -4,7 +4,15 @@ import LogoNew from '../Logo-New.jpg';
 
 const Hero: React.FC = () => {
   return (
-    <div className="bg-gradient-to-r from-primary to-secondary text-white">
+    <div
+      className="text-white"
+      style={{
+        backgroundImage: `url(${require('../bg.png')})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+      }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 <div className="flex flex-col justify-center">
