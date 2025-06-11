@@ -42,14 +42,7 @@ const Hero: React.FC = () => {
             <div className="relative w-full h-80">
               <div className="flex items-center justify-center w-full h-full p-8">
                 <div className="text-center">
-                  <img src={LogoNew} alt="Logo" className="mx-auto mb-4 w-64 h-64 object-contain" />
-                  <p className="text-gray-600 mb-6">Estimate how much you could save by choosing our energy offers</p>
-                  <Link 
-                    to="/compare" 
-                    className="inline-block bg-primary text-white font-medium px-6 py-2 rounded-md hover:bg-secondary transition-colors"
-                  >
-                    Compare offers
-                  </Link>
+                  <img src={LogoNew} alt="Logo" className="mx-auto mb-4 w-[24rem] h-[24rem] object-contain" />
                 </div>
               </div>
             </div>
