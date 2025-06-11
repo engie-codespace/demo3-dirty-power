@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/demo3-dirty-power/static/css/main.b6918c1d.css",
-    "main.js": "/demo3-dirty-power/static/js/main.50a5faed.js",
+    "main.css": "/demo3-dirty-power/static/css/main.fa92de6c.css",
+    "main.js": "/demo3-dirty-power/static/js/main.1b932331.js",
     "static/js/453.14b02d4a.chunk.js": "/demo3-dirty-power/static/js/453.14b02d4a.chunk.js",
     "static/media/Logo-New.jpg": "/demo3-dirty-power/static/media/Logo-New.219a3b4c0ca82ebee204.jpg",
     "index.html": "/demo3-dirty-power/index.html",
-    "main.b6918c1d.css.map": "/demo3-dirty-power/static/css/main.b6918c1d.css.map",
-    "main.50a5faed.js.map": "/demo3-dirty-power/static/js/main.50a5faed.js.map",
+    "main.fa92de6c.css.map": "/demo3-dirty-power/static/css/main.fa92de6c.css.map",
+    "main.1b932331.js.map": "/demo3-dirty-power/static/js/main.1b932331.js.map",
     "453.14b02d4a.chunk.js.map": "/demo3-dirty-power/static/js/453.14b02d4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6918c1d.css",
-    "static/js/main.50a5faed.js"
+    "static/css/main.fa92de6c.css",
+    "static/js/main.1b932331.js"
   ]
 }
