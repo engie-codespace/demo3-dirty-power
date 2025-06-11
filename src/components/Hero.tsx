@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Green Energy That Gets You
+              100% Renewable. 100% You.
             </h1>
             <p className="text-lg md:text-xl mb-4 text-gray-200 bg-black bg-opacity-40 p-2 rounded">
               Power your life with clean energy that’s always on — no compromises, no greenwashing. Just real, reliable, renewable power for your home, your hustle, and your planet.
